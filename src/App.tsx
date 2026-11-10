@@ -55,13 +55,7 @@ const questions = [
   },
 ];
 
-function BrandSymbol() {
-  return (
-    <span className="brand-symbol" aria-hidden="true">
-      N
-    </span>
-  );
-}
+
 
 function SectionHeading({ eyebrow, title, id }: { eyebrow: string; title: string; id: string }) {
   return (

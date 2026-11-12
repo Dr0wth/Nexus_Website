@@ -35,7 +35,7 @@ void i18n.use(initReactI18next).init({
   // Empty Chinese strings intentionally fall back to the English text.
   returnEmptyString: false,
   react: { useSuspense: false },
-  initImmediate: false,
+  initAsync: false,
 });
 
 export default i18n;

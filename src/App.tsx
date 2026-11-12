@@ -109,7 +109,7 @@ function App() {
 
               <div className="masthead-wordmark">
                 <span className="wordmark">Nexus</span>
-                <span className="wordmark-caption">A ACADEMIC PLATFORM PROJECT</span>
+                <span className="wordmark-caption">AN ACADEMIC PLATFORM PROJECT</span>
               </div>
             </div>
             <div className="masthead-side">

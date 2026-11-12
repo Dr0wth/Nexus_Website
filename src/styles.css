@@ -92,6 +92,43 @@ main { min-width: 0; }
 .roadmap-state { font-size:9px; letter-spacing:.65px; font-weight:700; white-space:nowrap; }
 .roadmap-state.complete { color:#536d58; }
 .roadmap-state.pending { color:#958784; }
+
+/* Roadmap phase content */
+.roadmap-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.roadmap-label {
+  font-weight: 700;
+}
+
+.roadmap-description {
+  color: #746b66;
+  font-size: 11px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+/* Roadmap statuses */
+.roadmap-state.active {
+  color: #536d58;
+}
+
+.roadmap-state.planned {
+  color: #958784;
+}
+
+/* Mobile readability */
+@media (max-width: 600px) {
+  .roadmap-description {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+}
+
 .release-box { display:flex; align-items:center; gap:19px; padding:22px; border:1px solid #cfc6bd; background:#f3f0eb; }
 .release-icon { flex:none; width:48px; height:48px; border:1px solid #aaa09b; background:#fffdfb; color:#7c4e58; display:grid; place-items:center; font-size:28px; }
 .release-details { flex:1; }

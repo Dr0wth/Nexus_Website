@@ -27,14 +27,52 @@ const features = [
   },
 ];
 
+
 const roadmap = [
-  { label: 'Build a staged McMaster academic calendar crawler', done: true },
-  { label: 'Store and validate catalog data in SQLite', done: true },
-  { label: 'Refine the database and implement planning logic', done: false },
-  { label: 'Connect the data, application logic, and interface', done: false },
-  { label: 'Run real-world beta tests', done: false },
-  { label: 'Release Course Planner v1.0.0', done: false },
-];
+  {
+    title: 'Course Planner',
+    description:
+      'Academic data, prerequisite rules, degree progress, term planning, and what-if scenarios.',
+    status: 'active',
+  },
+  {
+    title: 'Desktop Application',
+    description:
+      'Electron and React for Windows and macOS, with a unified dashboard and university resources.',
+    status: 'planned',
+  },
+  {
+    title: 'Local Academic File System',
+    description:
+      'Course-based file organization, local storage, document previews, search, and note-taking.',
+    status: 'planned',
+  },
+  {
+    title: 'Embedded Browser & Integrations',
+    description:
+      'Chromium-based browsing, persistent sessions where supported, and authorized A2L and third-party integrations.',
+    status: 'planned',
+  },
+  {
+    title: 'Academic Automation',
+    description:
+      'Course material synchronization, document parsing, deadline extraction, and calendar exports.',
+    status: 'planned',
+  },
+  {
+    title: 'Iris — Academic Intelligence',
+    description:
+      'Context-aware academic assistance, local and cloud language models, and optional proactive workflows.',
+    status: 'planned',
+  },
+  {
+    title: 'Campus Ecosystem',
+    description:
+      'Messaging, moderated forums, student communities, club management, and multi-university expansion.',
+    status: 'planned',
+  },
+] as const;
+
 
 const questions = [
   {
@@ -146,7 +184,7 @@ function App() {
                   <p>The first independent Nexus module is under development.</p>
                   <div className="bulletin-rule" />
                   <p className="bulletin-field">CURRENT SUB-MODULE STATUS</p>
-                  <p className="bulletin-value">03Database Optimization</p>
+                  <p className="bulletin-value">Academic Data & Planning Logic</p>
                   <p className="bulletin-field">TARGET WINDOW</p>
                   <p className="bulletin-value">{siteConfig.targetRelease}*</p>
                   <p className="bulletin-footnote">*Tentative. Release timing may change.</p>
@@ -180,22 +218,72 @@ function App() {
                 <p className="fineprint">Planned capabilities, not features available today. Scope may change during development.</p>
               </section>
 
-              <section id="development" className="content-section" aria-labelledby="development-heading">
-                <SectionHeading eyebrow="03 / LOG" title="Development roadmap." id="development-heading" />
-                <p className="section-intro">The current focus is the academic data crawler, data pipeline, course rules, and first user interface.</p>
-                <div className="roadmap" role="list" aria-label="Course Planner milestones">
-                  {roadmap.map((item, index) => (
-                    <div className="roadmap-row" key={item.label} role="listitem">
-                      <span className="roadmap-step">{String(index + 1).padStart(2, '0')}</span>
-                      <span className="roadmap-label">{item.label}</span>
-                      <span className={`roadmap-state ${item.done ? 'complete' : 'pending'}`}>
-                        {item.done ? 'COMPLETE' : 'PLANNED'}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-                <p className="fineprint">im doing it as fast as i could xd.</p>
-              </section>
+
+<section
+  id="development"
+  className="content-section"
+  aria-labelledby="development-heading"
+>
+  <SectionHeading
+    eyebrow="03 / DEVELOPMENT"
+    title="Development roadmap."
+    id="development-heading"
+  />
+
+  <p className="section-intro">
+    Nexus is being developed as a modular academic platform.
+    Each phase builds toward a more connected university
+    experience, beginning with the Course Planner.
+  </p>
+
+  <div
+    className="roadmap"
+    role="list"
+    aria-label="Nexus development roadmap"
+  >
+    {roadmap.map((phase, index) => (
+      <div
+        className="roadmap-row"
+        key={phase.title}
+        role="listitem"
+      >
+        <span className="roadmap-step">
+          {String(index + 1).padStart(2, '0')}
+        </span>
+
+        <div className="roadmap-copy">
+          <strong className="roadmap-label">
+            {phase.title}
+          </strong>
+
+          <span className="roadmap-description">
+            {phase.description}
+          </span>
+        </div>
+
+        <span className={`roadmap-state ${phase.status}`}>
+          {phase.status === 'active'
+            ? 'IN DEVELOPMENT'
+            : 'PLANNED'}
+        </span>
+      </div>
+    ))}
+  </div>
+
+  <p className="fineprint">
+    <strong>Current progress:</strong> Initial McMaster
+    academic data collection and SQLite storage are in place.
+    Course planning logic and the first user interface
+    remain under development.
+  </p>
+
+  <p className="fineprint">
+    This roadmap represents long-term goals, not guaranteed
+    features or release dates. Development priorities and
+    technical implementations may change.
+  </p>
+</section>
+
 
               <section id="releases" className="content-section" aria-labelledby="releases-heading">
                 <SectionHeading eyebrow="04 / DISTRIBUTION" title="Software releases." id="releases-heading" />

@@ -1,0 +1,129 @@
+{
+  "ui": {
+    "skip": "跳至主界面",
+    "language": "选择网页显示语言",
+    "newTab": "在新标签页中打开",
+    "mainNavigation": "导航页"
+  },
+  "nav": {
+    "heading": "信息",
+    "externalHeading": "外部链接",
+    "welcome": "欢迎",
+    "about": "关于 NEXUS",
+    "planner": "课程规划器",
+    "development": "开发",
+    "releases": "发行版",
+    "questions": "问题",
+    "contact": "联系我们",
+    "github": "开发者的 GitHub",
+    "mcmaster": "麦克马斯特大学官网",
+    "calendar": "校历",
+    "a2l": "A2L",
+    "mosaic": "Mosaic"
+  },
+  "masthead": {
+    "caption": "一个学术平台项目",
+    "greeting": "English"
+  },
+  "utility": {
+    "title": "NEXUS 信息中心",
+    "established": "始于 2026"
+  },
+  "hero": {
+    "kicker": "欢迎",
+    "title1": "你的学术生活",
+    "title2": "升级了！",
+    "lead": "为什么在我的学术生涯中，每天都要跑遍无数个平台？",
+    "description": "Nexus 是一个由学生独立开发的综合学术平台，追求“统一、效率、人机协作与自由”。",
+    "plannerButton": "探索 课程规划器",
+    "statusButton": "开发进展"
+  },
+  "bulletin": {
+    "heading": "项目公告",
+    "title": "课程规划器",
+    "description": "Nexus 的第一个独立运行模组已经接近尾声",
+    "statusField": "当前的独立模组进展",
+    "statusValue": "学术信息 & 规划逻辑",
+    "targetField": "目标发行日期",
+    "footnote": "发行日期以正式发布为准"
+  },
+  "intro": {
+    "label": "注：",
+    "description": "Nexus 是一个大型综合项目，但已计划的子功能将陆续以独立运行模组的形式推出"
+  },
+  "about": {
+    "eyebrow": "01 / 概览",
+    "title": "一个一体化的信息平台",
+    "paragraph1": "我们每天的学术生活被迫分散在各个平台：一个网站查该修什么课，一个网站找课程录播。想看看还欠学校多少钱？恭喜你，请继续打开下一个网站吧。",
+    "paragraph2": "Nexus 希望让高校中的<emphasis>学生、教授和管理人员</emphasis>少一点头疼，多一份自由与安心。"
+  },
+  "planner": {
+    "eyebrow": "02 / 模组",
+    "title": "认识课程规划器",
+    "intro": "它不只是一个课程目录，更希望帮助你看懂学位要求，以及每一次选课决定会如何影响接下来的学业安排。",
+    "feature1Title": "查询课程",
+    "feature1Description": "课程信息、专业要求和选修课，一站查全，不用在各个网页之间来回翻找。",
+    "feature2Title": "搞清课程规则",
+    "feature2Description": "查看先修、反修、共修课程，以及满足要求的其他修课路径。",
+    "feature3Title": "规划下一步",
+    "feature3Description": "如果退课、挂科或推迟修读某门课，还有哪些选择？提前看看可能的结果。",
+    "fineprint": "以上均为计划中的功能，目前尚未正式开放。具体功能可能随开发进度调整。"
+  },
+  "roadmap": {
+    "eyebrow": "03 / 开发进度",
+    "title": "开发路线图",
+    "intro": "Nexus 将以模块化方式逐步开发，从课程规划器起步，让原本分散的大学服务慢慢连接起来。",
+    "aria": "Nexus 开发路线图",
+    "statusActive": "正在开发",
+    "statusPlanned": "计划中",
+    "phase1Title": "课程规划器",
+    "phase1Description": "整理学术数据与先修课规则，追踪学位进度，安排学期课程，并模拟不同选课情境。",
+    "phase2Title": "桌面端应用",
+    "phase2Description": "基于 Electron 和 React，面向 Windows 与 macOS，整合学生主页、校园资源和常用服务。",
+    "phase3Title": "本地学业文件系统",
+    "phase3Description": "按课程整理文件，支持本地存储、文档预览、搜索和笔记，让学习资料不再散落各处。",
+    "phase4Title": "内置浏览器与平台集成",
+    "phase4Description": "集成基于 Chromium 的浏览器，在受支持的平台上保留登录状态，并通过授权方式连接 A2L 等第三方服务。",
+    "phase5Title": "学业任务自动化",
+    "phase5Description": "同步课程资料、解析文档、提取截止日期，并自动导出日历事件。",
+    "phase6Title": "Iris — 学业智能助手",
+    "phase6Description": "结合学业信息提供个性化帮助，支持本地与云端语言模型，并可选择开启主动提醒等自动化功能。",
+    "phase7Title": "校园生态系统",
+    "phase7Description": "逐步加入聊天、分级管理的论坛、学生社区、社团管理，并最终支持更多高校。",
+    "progressLabel": "当前进展：",
+    "progressText": "已初步完成麦克马斯特大学学术数据采集及 SQLite 存储；课程规划逻辑和首个用户界面仍在开发中。",
+    "disclaimer": "本路线图仅代表长期开发方向，不构成具体功能或发布日期的承诺。开发顺序与技术方案均可能调整。"
+  },
+  "release": {
+    "eyebrow": "04 / 发行",
+    "title": "软件下载与发布",
+    "productTitle": "课程规划器 v1.0.0 — 网页版",
+    "description": "公开版本尚未发布，目前暂无可下载内容。",
+    "targeting": "预计 {{date}} 发布 · 日期可能调整",
+    "view": "查看发行版",
+    "soon": "敬请期待"
+  },
+  "faq": {
+    "eyebrow": "05 / 常见问题",
+    "title": "你可能想知道的事",
+    "q1": "Nexus 到底是什么？",
+    "a1": "Nexus 是一个由学生独立开发的项目，致力于打造连接学生、教师、社团和高校管理人员的综合学术与校园平台。",
+    "q2": "如果我挂了一门课，Nexus 能告诉我接下来还能修什么吗？",
+    "a2": "这正是课程规划器的核心目标之一。功能仍在开发中，最终结果也需要结合学校的官方学术规定核实。",
+    "q3": "为什么先从麦克马斯特大学开始？",
+    "a3": "因为开发者最熟悉麦克马斯特大学。未来我们希望逐步支持更多高校，但这是一项长期目标。",
+    "q4": "这是学校的官方网站吗？",
+    "a4": "不是。Nexus 是独立开发的项目，与麦克马斯特大学及其他高校均无官方隶属或背书关系。"
+  },
+  "contact": {
+    "eyebrow": "06 / 联系我们",
+    "title": "一起把它做得更好",
+    "description": "想参与开发，或者关注项目进展？欢迎有相同想法的开发者和同学联系交流。",
+    "link": "前往开发者的 GitHub 主页"
+  },
+  "footer": {
+    "copyright": "© 2026 NEXUS · 让大学生活少点折磨。",
+    "disclaimer": "NEXUS 并非麦克马斯特大学或任何其他高校的官方项目。",
+    "backToTop": "返回顶部"
+  }
+}

@@ -1,0 +1,64 @@
+/* Site localization additions: import after styles.css in main.tsx. */
+.masthead-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-left: auto;
+}
+.language-switcher {
+  flex: none;
+  font-size: 11px;
+}
+.language-select {
+  max-width: 100%;
+  appearance: auto;
+  background: #fcfbf8;
+  color: #582032;
+  border: 1px solid #c9a8ae;
+  border-radius: 0;
+  padding: 7px 8px;
+  font: 700 11px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  cursor: pointer;
+}
+.language-select:focus-visible {
+  outline: 3px solid #e6ad56;
+  outline-offset: 3px;
+}
+
+/* Retain the site's original EB Garamond/Arial styling in English.
+   Chinese uses locally installed OS fonts; no font downloads needed. */
+html[lang='zh-CN'] .site-shell {
+  font-family: 'PingFang SC', 'Microsoft YaHei',
+    'Noto Sans CJK SC', 'Noto Sans SC', Arial, sans-serif;
+}
+html[lang='zh-CN'] .hero h1,
+html[lang='zh-CN'] .hero-lead,
+html[lang='zh-CN'] .section-heading h2,
+html[lang='zh-CN'] .feature-item h3,
+html[lang='zh-CN'] .release-details h3,
+html[lang='zh-CN'] .bulletin-content h3 {
+  font-family: 'Songti SC', 'STSong', 'Noto Serif CJK SC',
+    'Noto Serif SC', 'SimSun', serif;
+  letter-spacing: normal;
+  line-height: 1.22;
+}
+html[lang='zh-CN'] .wordmark,
+html[lang='zh-CN'] .bulletin-number,
+html[lang='zh-CN'] .roadmap-step {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+html[lang='zh-CN'] .hero h1 { overflow-wrap: anywhere; }
+html[lang='zh-CN'] .wordmark-caption,
+html[lang='zh-CN'] .eyebrow,
+html[lang='zh-CN'] .bulletin-top,
+html[lang='zh-CN'] .bulletin-field,
+html[lang='zh-CN'] .utility-line,
+html[lang='zh-CN'] .roadmap-state {
+  letter-spacing: .05em;
+}
+
+@media (max-width: 760px) {
+  .masthead-actions { gap: 0; }
+  .language-select { padding: 7px 4px; font-size: 11px; }
+}

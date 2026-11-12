@@ -1,0 +1,129 @@
+{
+  "ui": {
+    "skip": "Skip to main content",
+    "language": "Select website language",
+    "newTab": "(opens in new tab)",
+    "mainNavigation": "Main navigation"
+  },
+  "nav": {
+    "heading": "INFORMATION",
+    "externalHeading": "EXTERNAL LINKS",
+    "welcome": "Welcome",
+    "about": "About Nexus",
+    "planner": "Course Planner",
+    "development": "Development",
+    "releases": "Releases",
+    "questions": "Questions",
+    "contact": "Contact",
+    "github": "GitHub profile",
+    "mcmaster": "McMaster University",
+    "calendar": "Academic Calendar",
+    "a2l": "A2L",
+    "mosaic": "Mosaic"
+  },
+  "masthead": {
+    "caption": "AN ACADEMIC PLATFORM PROJECT",
+    "greeting": "简体中文"
+  },
+  "utility": {
+    "title": "NEXUS INFORMATION CENTER",
+    "established": "EST. 2026"
+  },
+  "hero": {
+    "kicker": "WELCOME TO NEXUS",
+    "title1": "Your academic life,",
+    "title2": "upgraded.",
+    "lead": "University life shouldn't require a dozen disconnected systems.",
+    "description": "Nexus is a student-built project working toward one connected home for academic planning, teaching, campus communities, and administration.",
+    "plannerButton": "Explore Course Planner",
+    "statusButton": "Development status"
+  },
+  "bulletin": {
+    "heading": "PROJECT BULLETIN",
+    "title": "Course Planner",
+    "description": "The first independent Nexus module is under development.",
+    "statusField": "CURRENT SUB-MODULE STATUS",
+    "statusValue": "Academic Data & Planning Logic",
+    "targetField": "TARGET WINDOW",
+    "footnote": "*Tentative. Release timing may change."
+  },
+  "intro": {
+    "label": "Note:",
+    "description": "Nexus is a large-scale project, but expect independent sub-modules to be released over time."
+  },
+  "about": {
+    "eyebrow": "01 / OVERVIEW",
+    "title": "A more connected campus.",
+    "paragraph1": "Today's university experience is spread across course calendars, learning systems, emails, spreadsheets, and club portals. Useful information can be difficult to find—and harder to connect.",
+    "paragraph2": "Nexus aims to bring those workflows together for <emphasis>students, instructors, clubs, and university staff</emphasis>. The long-term vision includes degree planning, communication, campus resources, and support for multiple institutions."
+  },
+  "planner": {
+    "eyebrow": "02 / MODULES",
+    "title": "Introducing Course Planner.",
+    "intro": "More than a course catalog: a tool designed to help you understand how degree requirements and academic decisions affect what you can do next.",
+    "feature1Title": "Explore courses",
+    "feature1Description": "Find course and program information, requirements, and electives in one place.",
+    "feature2Title": "Understand the rules",
+    "feature2Description": "See prerequisites, antirequisites, corequisites, and alternative course paths.",
+    "feature3Title": "Plan what comes next",
+    "feature3Description": "Investigate what may still be possible after dropping, failing, or postponing a course.",
+    "fineprint": "Planned capabilities, not features available today. Scope may change during development."
+  },
+  "roadmap": {
+    "eyebrow": "03 / DEVELOPMENT",
+    "title": "Development roadmap.",
+    "intro": "Nexus is being developed as a modular academic platform. Each phase builds toward a more connected university experience, beginning with the Course Planner.",
+    "aria": "Nexus development roadmap",
+    "statusActive": "IN DEVELOPMENT",
+    "statusPlanned": "PLANNED",
+    "phase1Title": "Course Planner",
+    "phase1Description": "Academic data, prerequisite rules, degree progress, term planning, and what-if scenarios.",
+    "phase2Title": "Desktop Application",
+    "phase2Description": "Electron and React for Windows and macOS, with a unified dashboard and university resources.",
+    "phase3Title": "Local Academic File System",
+    "phase3Description": "Course-based file organization, local storage, document previews, search, and note-taking.",
+    "phase4Title": "Embedded Browser & Integrations",
+    "phase4Description": "Chromium-based browsing, persistent sessions where supported, and authorized A2L and third-party integrations.",
+    "phase5Title": "Academic Automation",
+    "phase5Description": "Course material synchronization, document parsing, deadline extraction, and calendar exports.",
+    "phase6Title": "Iris — Academic Intelligence",
+    "phase6Description": "Context-aware academic assistance, local and cloud language models, and optional proactive workflows.",
+    "phase7Title": "Campus Ecosystem",
+    "phase7Description": "Messaging, moderated forums, student communities, club management, and multi-university expansion.",
+    "progressLabel": "Current progress:",
+    "progressText": "Initial McMaster academic data collection and SQLite storage are in place. Course planning logic and the first user interface remain under development.",
+    "disclaimer": "This roadmap represents long-term goals, not guaranteed features or release dates. Development priorities and technical implementations may change."
+  },
+  "release": {
+    "eyebrow": "04 / DISTRIBUTION",
+    "title": "Software releases.",
+    "productTitle": "Course Planner v1.0.0 - Web Edition",
+    "description": "Public release pending, no downloads available yet.",
+    "targeting": "Targeting {{date}} · Subject to change",
+    "view": "View releases",
+    "soon": "COMING SOON"
+  },
+  "faq": {
+    "eyebrow": "05 / GOOD TO KNOW",
+    "title": "Frequently asked questions.",
+    "q1": "What is Nexus?",
+    "a1": "An independent, student-built project exploring a connected academic and campus platform for students, instructors, organizations, and university staff.",
+    "q2": "Can it tell me which courses I can take if I fail one?",
+    "a2": "That is a central goal of the Course Planner. The feature is still in development and results will need to be checked against official academic rules.",
+    "q3": "Why start with McMaster?",
+    "a3": "The project starts with McMaster University because it is the institution the developer knows best. Multi-institution support is a long-term goal.",
+    "q4": "Is this an official university website?",
+    "a4": "No. Nexus is not affiliated with or endorsed by McMaster University or any other institution."
+  },
+  "contact": {
+    "eyebrow": "06 / GET IN TOUCH",
+    "title": "Build something better.",
+    "description": "Interested in contributing or following the project? Developers and students who share the vision are welcome to get in touch.",
+    "link": "Visit the developer's GitHub profile"
+  },
+  "footer": {
+    "copyright": "© 2026 NEXUS PROJECT · A LESS MISERABLE ACADEMIC LIFE.",
+    "disclaimer": "NOT AFFILIATED WITH MCMASTER UNIVERSITY OR ANY OTHER INSTITUTION.",
+    "backToTop": "BACK TO TOP"
+  }
+}
